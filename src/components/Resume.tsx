@@ -27,7 +27,7 @@ const Resume = () => {
           </p>
           <div className="flex justify-center space-x-4">
             <a
-              href="src\assets\vishal Gat.pdf"
+              href="/vishal Gat.pdf"
               download
               className="inline-flex items-center px-6 py-3 bg-blue-500 text-white rounded-full
                        hover:bg-blue-600 transition-colors shadow-lg hover:shadow-xl"
@@ -36,7 +36,7 @@ const Resume = () => {
               Download Resume
             </a>
             <a
-              href="src\assets\vishal Gat.pdf"
+              href="/vishal Gat.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="inline-flex items-center px-6 py-3 bg-gray-200 dark:bg-gray-700 
