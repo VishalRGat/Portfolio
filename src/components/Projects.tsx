@@ -2,12 +2,17 @@ import React from 'react';
 import { motion } from 'framer-motion';
 import { useInView } from 'react-intersection-observer';
 import { Github, ExternalLink } from 'lucide-react';
+import telecom from '../assets/images/Telecom.jpg';
+import medi from '../assets/images/MediDr.jpg';
+import weather from '../assets/images/weather.jpg';
+import fx from '../assets/images/fx analysis.jpg';
+import sale from '../assets/images/Sales.jpg';
 
 const projects = [
   {
     title: 'Telecom Churn Analysis & Prediction ',
     description: 'Telecom Churn Prediction uses Logistic Regression to identify customers likely to churn, achieving 95% accuracy for better retention strategies.🚀',
-    image: 'src/assets/images/Telecom.jpg',
+    image: telecom,
     github: 'https://github.com/VishalRGat/Customer-Churn-Analysis-and-Prediction',
     live: 'https://customer-churn-analysis-and-prediction-2024.streamlit.app/',
     tags: ['Python', 'ML', 'Tensorflow']
@@ -15,7 +20,7 @@ const projects = [
   {
     title: 'MediDr (Doctors Appointment)',
     description: 'A Doctors Appointment Booking Website built with React that allows users to schedule consultations with specialists easily. It features real-time booking, doctor profiles, and patient management for a seamless healthcare experience. ',
-    image: 'src/assets/images/MediDr.jpg',
+    image: medi,
     github: 'https://github.com/VishalRGat/MediDr',
     live: 'https://medi-dr-blush.vercel.app/',
     tags: ['React', 'TailWindCSS', 'Vercel']
@@ -23,7 +28,7 @@ const projects = [
   {
     title: 'Real-Time Weather App using Expo',
     description: 'Real-Time Weather App built with Expo fetches live weather data, displaying temperature, humidity, and forecasts with a clean, responsive UI. 🌤️📱🚀',
-    image: 'src/assets/images/weather.jpg',
+    image: weather,
     github: 'https://github.com/VishalRGat/WeatherApp-Expo-',
     live: 'https://weatherappbyvishalgat.netlify.app/',
     tags: ['Javascript', 'Expo', 'Native']
@@ -39,7 +44,7 @@ const projects = [
   {
     title: 'Forex Trading Spread Analysis',
     description: 'Forex Trading Spread Analysis is an EDA on historical trades, examining profit/loss trends, spread impact, and trading patterns to optimize strategies. 📊💹🚀',
-    image: 'src/assets/images/fx analysis.jpg',
+    image: fx,
     github: 'https://github.com/VishalRGat/Forex-Trade-Analysis',
     //live: 'https://example.com',
     tags: ['Python', 'Pandas', 'Matplotlib']
@@ -47,7 +52,7 @@ const projects = [
   {
     title: 'Ecommerce Dashboard Analysis using PowerBI',
     description: 'Ecommerce Dashboard Analysis in Power BI visualizes sales, revenue, and customer trends, enabling data-driven decision-making for business growth. 📊🚀',
-    image: 'src/assets/images/Sales.jpg',
+    image: sale,
     github: 'https://github.com/VishalRGat/Ecommerce-Dashboard-Analysis-PowerBI-',
     /*live: 'https://example.com',*/
     tags: ['SQL', 'PowerBI', 'Kaggle']

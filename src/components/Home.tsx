@@ -1,6 +1,8 @@
 import React from 'react';
 import { motion } from 'framer-motion';
 import { Github, Linkedin, Instagram, Mail } from 'lucide-react';
+import profilepic from '../assets/images/Image-1.jpg'
+
 
 const Home = () => {
   return (
@@ -13,7 +15,7 @@ const Home = () => {
           className="mb-8"
         >
           <img
-            src="src\assets\images\Image-1.jpg"
+            src={profilepic}
             alt="Profile"
             className="w-48 h-48 rounded-full mx-auto shadow-lg border-4 border-white dark:border-gray-800"
           />
