@@ -50,8 +50,16 @@ const Tech = () => {
               initial={{ opacity: 0, y: 20 }}
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: index * 0.1 }}
-              className="bg-white dark:bg-gray-700 rounded-xl p-6 shadow-lg hover:shadow-xl 
-                         transform hover:scale-105 transition-all duration-300"
+              className="group bg-white dark:bg-gray-700 rounded-xl p-6 transform transition-all duration-300 ease-in-out hover:scale-105"
+              style={{
+                boxShadow: '0 4px 6px rgba(0, 0, 0, 0.1)',
+              }}
+              onMouseEnter={(e) => {
+                e.currentTarget.style.boxShadow = '0 12px 25px rgba(168, 85, 247, 0.5)'; // Purple glow
+              }}
+              onMouseLeave={(e) => {
+                e.currentTarget.style.boxShadow = '0 4px 6px rgba(0, 0, 0, 0.1)'; // Reset
+              }}
             >
               <div className="text-blue-500 dark:text-blue-400 mb-4">
                 {tech.icon}

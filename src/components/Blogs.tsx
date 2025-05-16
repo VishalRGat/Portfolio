@@ -63,7 +63,8 @@ const Blogs = () => {
               animate={inView ? { opacity: 1, y: 0 } : {}}
               transition={{ duration: 0.5, delay: index * 0.1 }}
               className="bg-white dark:bg-gray-700 rounded-xl overflow-hidden shadow-lg 
-                         hover:shadow-xl transform hover:scale-105 transition-all duration-300"
+                         transform hover:scale-105 hover:shadow-purple-500/30 
+                         transition-all duration-300"
             >
               <div className="p-6">
                 <h3 className="text-xl font-semibold text-gray-900 dark:text-white mb-3">
@@ -86,7 +87,7 @@ const Blogs = () => {
                   href={blog.link}
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="inline-flex items-center text-blue-500 hover:text-blue-600 transition-colors"
+                  className="inline-flex items-center text-blue-600 hover:text-blue-800 transition-colors"
                 >
                   Read More
                   <ExternalLink size={16} className="ml-1" />
@@ -106,8 +107,8 @@ const Blogs = () => {
             href="https://medium.com/@gatvishal1232"
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex items-center px-6 py-3 bg-blue-500 text-white rounded-full
-                     hover:bg-blue-600 transition-colors shadow-lg hover:shadow-xl"
+            className="inline-flex items-center px-6 py-3 bg-blue-600 text-white rounded-full
+                       hover:bg-blue-700 transition-colors shadow-lg hover:shadow-xl"
           >
             View All Posts on Medium
             <ExternalLink size={20} className="ml-2" />

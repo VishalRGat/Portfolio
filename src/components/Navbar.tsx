@@ -34,7 +34,7 @@ const Navbar = ({ darkMode, toggleDarkMode }: { darkMode: boolean; toggleDarkMod
             animate={{ opacity: 1, x: 0 }}
             className="text-2xl font-bold text-gray-900 dark:text-white"
           >
-           want to Know me? Here you go..
+           Portfolio
           </motion.div>
 
           {/* Desktop Menu */}
